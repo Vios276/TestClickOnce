@@ -119,6 +119,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Publish\Application Files\TestClickOnce_1_0_0_0\Publish\test.txt.deploy" />
+    <None Include="Publish\Application Files\TestClickOnce_1_0_0_0\TestClickOnce.application" />
+    <None Include="Publish\Application Files\TestClickOnce_1_0_0_0\TestClickOnce.exe.config.deploy" />
+    <None Include="Publish\Application Files\TestClickOnce_1_0_0_0\TestClickOnce.exe.deploy" />
+    <None Include="Publish\Application Files\TestClickOnce_1_0_0_0\TestClickOnce.exe.manifest" />
+    <None Include="Publish\TestClickOnce.application" />
     <None Include="TestClickOnce_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -136,10 +142,10 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Publish\Application Files\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Publish\Publish.htm" />
+    <Content Include="Publish\setup.exe" />
     <Content Include="Publish\test.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
