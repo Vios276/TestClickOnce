@@ -136,7 +136,9 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Publish\Application Files\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Publish\test.txt" />
   </ItemGroup>
