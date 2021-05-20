@@ -23,8 +23,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://raw.githubusercontent.com/Vios276/TestClickOnce/master/Publish/TestClickOnce.application%3ftoken=ANG363QWPIVJVO7J2TXQCJLAUYQHI/</InstallUrl>
-    <UpdateUrl>https://raw.githubusercontent.com/Vios276/TestClickOnce/master/Publish/TestClickOnce.application%3ftoken=ANG363QWPIVJVO7J2TXQCJLAUYQHI/</UpdateUrl>
+    <InstallUrl>https://raw.githubusercontent.com/Vios276/TestClickOnce/master/Publish/</InstallUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/Vios276/TestClickOnce/master/Publish/</UpdateUrl>
     <ProductName>TestClickOnce</ProductName>
     <PublisherName>ViOs276</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
